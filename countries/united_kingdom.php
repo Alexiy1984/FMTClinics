@@ -1,1 +1,0 @@
-<h1>united_kingdom</h1><div><p>website = http://www.stemcelltreatmentuk.com/</p><p>clinic_name = Stem Cell Treatment UK</p><p>contact_name = </p><p>tel. = 079 896 511 52</p><p>email = info@stemcelltreatmentuk.com</p><p>address = Whitchurch, Shropshire</p><p>country = United Kingdom</p><p>state = </p><p>province = </p><p>city = Shopshire</p></div>
