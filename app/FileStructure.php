@@ -23,14 +23,15 @@ class FileStructure
                 if ($value != '') {
                   $match = $match + 1;
                   $value = str_replace('->', '', $value); 
-                  $mvalue .= "$value->";
+                  //$mvalue .= "$value->";
+                  $mvalue = sprintf('%1$s%2$s', "$value->", $mvalue);
                 }
               };
               if ($key == $ch_dir[1]) {
                 if ($value != '') {
                   $match = $match + 1; 
                   $value = str_replace('->', ' ', $value); 
-                  $mvalue .= "$value->";
+                  $mvalue = sprintf('%1$s%2$s', $mvalue, "$value->");
                 }  
               }; 
             }
@@ -110,8 +111,9 @@ class FileStructure
           }
           $string .= "</div>";
         }
-        echo $key_a[0] .":" .$row[$key_a[0]] ."> $value_a[0]<br>";
-        echo $key_a[1] .":" .$row[$key_a[1]] ."> $value_a[1]<br>";
+        // echo $key_a[0] .":" .$row[$key_a[0]] ."> $value_a[0]<br>";
+        // echo $key_a[1] .":" .$row[$key_a[1]] ."> $value_a[1]<br>";
+        //echo "$key : $value<br>";
       }
       // echo "$key_a[0] : $key_a[1];";
     }

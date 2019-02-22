@@ -1,4 +1,5 @@
 /vendor
-credentials.json
+client_secrets.json
 token.json
 .DS_Store
+/table_data
